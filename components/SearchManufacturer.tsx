@@ -55,7 +55,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                   value={query}
                   className='search-manufacturer__option'
                 >
-                  Create "{query}"
+                  Create &quot;{query}&quot;
                 </Combobox.Option>
               ) : (
                 filteredManufacturers.map((item) => (
@@ -76,7 +76,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
 
                         {/* Show an active blue background color if the option is selected */}
                         {selected ? (
-                          <span className={`absolute inset-y-0 left-0 flex items-center pl-3 ${active? "text-white": "text-pribg-primary-purple"}`}
+                          <span className={`absolute inset-y-0 left-0 flex items-center pl-3 ${active? "text-white": "text-primary-purple"}`}
                           ></span>
                         ) : null}
                       </>
