@@ -2,7 +2,7 @@
 
 ## Project Demo
 
-![Project Banner](./public/src/.png)
+![Project Banner](./public/banner.png)
 
 ## Table of Contents
 
